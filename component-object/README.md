@@ -1,4 +1,4 @@
---- # this is so-called 'YAML front matter', read up on it here: http://jekyllrb.com/docs/frontmatter/
+---
 layout: pattern
 title: Component Object Pattern
 folder: component-object
