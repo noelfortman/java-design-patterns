@@ -36,6 +36,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two todos and checks whether they have been clicked.
      */
     @Test
@@ -49,6 +50,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two todos and click on one.
      */
     @Test
@@ -63,6 +65,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two items, clicks on one. Selects the active item and ensures that only the unclicked item is shown.
      */
     @Test
@@ -81,6 +84,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two items, clicks on one. Selects the completed item and ensures that only the clicked item is shown.
      */
     @Test
@@ -99,6 +103,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two items, clicks on one. Selects the all items and ensures that one is clicked, the other is not.
      */
     @Test
@@ -118,6 +123,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two grocery items, ensures that both are not clicked.
      */
     @Test
@@ -131,6 +137,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two groceries items, clicks on one and makes sure that one is struck through.
      */
     @Test
@@ -145,6 +152,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two groceries items, clicks on one. After selecting active items, ensures that only the unclicked item
      * remains.
      */
@@ -164,6 +172,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two grocery items, and clicks on one. When getting completed items, check that only the clicked item
      * is shown.
      */
@@ -183,6 +192,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two grocery items, and clicks on one. When getting all items, check that the clicked item is shown
      * struck through, and the other is shown but not struck through.
      */
@@ -203,6 +213,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two groceries and two todos. Click on a grocery and one todoitem. After selecting the active items,
      * check that only the unclicked grocery and todoitem are shown.
      */
@@ -233,6 +244,7 @@ public class TodoAppTest {
     }
 
     /**
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * Creates two groceries and two todos. Click on a grocery and one todoitem. After selecting the completed items,
      * check that only the clicked grocery and todoitem are shown.
      */
@@ -251,7 +263,7 @@ public class TodoAppTest {
                 .getTodoList()
                 .clickOnItem(TIDY_UP);
         todoPage
-                .selectActive();
+                .selectCompleted();
         todoPage
                 .getTodoList()
                 .verifyItemStrikethrough(TIDY_UP, true)

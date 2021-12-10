@@ -28,6 +28,7 @@ public final class ItemPageObject {
 
     /**
      * Navigates to the page under test, waiting until it is ready
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @return this ItemPageObject
      */
     public ItemPageObject get() {
@@ -38,6 +39,7 @@ public final class ItemPageObject {
 
     /**
      * Clicks the "All" button on the page
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @return this ItemPageObject
      */
     public ItemPageObject selectAll() {
@@ -48,6 +50,7 @@ public final class ItemPageObject {
 
     /**
      * Clicks the "Active" button on the page
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @return this ItemPageObject
      */
     public ItemPageObject selectActive() {
@@ -58,6 +61,7 @@ public final class ItemPageObject {
 
     /**
      * Clicks the "Completed" button on the page
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @return this ItemPageObject
      */
     public ItemPageObject selectCompleted() {
@@ -67,6 +71,7 @@ public final class ItemPageObject {
 
     /**
      * Adds an item to the todolist
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @return this ItemPageObject
      */
     public ItemPageObject addTodo(String todoName) {
@@ -76,6 +81,7 @@ public final class ItemPageObject {
 
     /**
      * Adds an item to the grocery list
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @return this ItemPageObject
      */
     public ItemPageObject addGroceryItem(String groceryName) {

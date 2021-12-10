@@ -23,7 +23,7 @@ public class ItemListComponent {
 
     /**
      * Clicks on an item within the list
-     *
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @param item the item to be clicked on
      * @return this ItemListComponent
      */
@@ -34,7 +34,7 @@ public class ItemListComponent {
 
     /**
      * Asserts whether an item has the strikethrough text decoration.
-     *
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @param item the item to be checked for strikethrough
      * @param expectedStrikethrough whether the item should have the strikethrough text decoration
      * @return this ItemListComponent
@@ -49,7 +49,7 @@ public class ItemListComponent {
 
     /**
      * Asserts that no elements for the given item can be found.
-     *
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @param item to search for existence
      * @return
      */

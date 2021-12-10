@@ -15,7 +15,7 @@ public class AddItemComponent {
 
     /**
      * Adds an item through a text input field on a webpage.
-     *
+     * CS427 Issue Link: https://github.com/iluwatar/java-design-patterns/issues/509
      * @param item the text item to be added
      * @return this AddItemComponent after adding the item
      */
